@@ -1,0 +1,64 @@
+/*  styeling  the Box*/
+#configuration-playerName{
+    text-align: center;
+}
+
+#configuration-playerName  h2{
+
+    margin: .5rem  0;
+
+}
+
+.form-control{
+    margin: .5rem;
+}
+
+.form-control label{
+   display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+
+}
+
+.form-control input{
+    font: inherit;
+    border:  1px solid rgb(204,204,204);
+    width: 15rem;
+    padding: 0.35rem;
+}
+
+#game-configration{
+width: 90%;
+max-width: 40rem;
+margin: 3rem auto;
+text-align: center;
+}
+#game-configration ol {
+
+    list-style: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+}
+
+#game-configration li {
+    margin: 1rem;
+    padding: 1rem;
+    width: 50%;
+    background-color: rgb(243, 227 , 255);
+    border-radius: 4px;
+    box-shadow:0 2px 4px rgb(0,0,0,0.7) ;
+} 
+        
+#game-configration h3 {
+    font-size: 1.5rem;
+    margin: .5rem 0;
+    color: rgb(94,4,168);
+}
+
+.player-symbol {
+    font-size: 2rem;
+    font-weight:bold ;
+    color: rgb(47,4,82);
+    margin: .5rem 0;
+}

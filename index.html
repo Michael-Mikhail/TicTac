@@ -9,8 +9,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="overlayes.css">
+<link rel="stylesheet" href="configration.css">
 </head>
 <body>
+    <!-- to head the rest of the pag create empty div so i can stylet -->
     <div id="backdrop"></div>
     <header id="main-header">
 <h1>Play Tic,Tac,Toe</h1>
@@ -18,9 +20,9 @@
     </header>
 
     <main>
-    <div class="modeling">
+    <div class="modeling" id="configuration-playerName">
 <h2>Choose you name</h2>
-<form>
+<form class="form-control">
     <div>
         <!-- used for in label to connect (id)playrname from the input  -->
         <label for="playername"> player Name</label>
@@ -37,8 +39,8 @@
                 <li>
                     <article>
                         <h2>player 1 </h2>
-                        <h3>Player Name</h3>
-                        <p>X</p>
+                        <h3 >Player Name</h3>
+                        <p class="player-symbol">X</p>
                         <button class="button button-alt">Edit</button>
                     </article>
                 </li>
@@ -46,7 +48,7 @@
                     <article>
                         <h2>player 2 </h2>
                         <h3>Player Name</h3>
-                        <p>O</p>
+                        <p class="player-symbol">O</p>
                         <Button class="button button-alt">Edit</Button>
                     </article>
                 </li>
